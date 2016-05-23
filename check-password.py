@@ -39,5 +39,5 @@ h_WPA, m_WPA = divmod(m_WPA, 60)
 print
 print "To crack that as a regular password, it would take\t %dh %02dm %02ds." % (h_basic, m_basic, s_basic)
 print "To crack that as an encryption password, it would take\t %dh %02dm %02ds." % (h_encryption, m_encryption, s_encryption)
-print "To crack that as a wifi password, it would take\t %dh %02dm %02ds." % (h_WPA, m_WPA, s_WPA)
+print "To crack that as a wifi password, it would take\t\t %dh %02dm %02ds." % (h_WPA, m_WPA, s_WPA)
 print
